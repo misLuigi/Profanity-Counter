@@ -11,12 +11,18 @@
 </head>
 <body class="agu-display-fnt">
   <div class="body">
-    <h1 class="title">Profanity Counter</h1>
-    <p class="slogan">Clean up your language! Instantly track and count offensive words with ease.</p>
-    <h2 class="swear-count">Swear Count</h2>
+    <h1 class="title texts">Profanity Counter</h1>
+    <p class="texts" id="slogan">Clean up your language! Instantly track and count offensive words with ease.</p>
+    <h2 class="texts">Swear Count</h2>
     <p id="swear-count">0</p>
-    <button id="increment-btn">Increment</button>
-    <button id="save-btn">Save</button>
+    <button class="texts" id="increment-btn" onclick="increment()">Increment</button>
+    <button class="texts" id="save-btn" onclick="save()">Save</button>
+    <p><strong>Entries:</strong></p>
+    <div id="entries-section">
+      
+    </div>
+    <img src="./Images/Profanity-Img.jpg" alt="Picture of a geckko wearing an eyeglasses with a caption of 'Everyone was thinking it, I just said it!'">
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
